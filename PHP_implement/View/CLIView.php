@@ -6,6 +6,7 @@ class CLIView implements IPlayersView
 {
     function display($playersCollection)
     {
+        //echo "testing in CLIview";
         $players = $playersCollection->toArray();
         echo "Current Players: \n";
         foreach ($players as $player) {

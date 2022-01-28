@@ -1,7 +1,7 @@
 <?php
 
-require_once "Parsers/ParserHelper.php";
-require_once "PlayersCollection/CollectionHelper.php";
+require_once "ParserUtility/ParserHelper.php";
+require_once "Model/CollectionHelper.php";
 require_once "CLIView.php";
 require_once "DefaultView.php";
 

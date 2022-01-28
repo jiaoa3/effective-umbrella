@@ -6,6 +6,7 @@ class DefaultView implements IPlayersView
 {
     function display($playersCollection)
     {
+        //echo "testing in DefaultView";
         $players = $playersCollection->toArray();
         ?>
         <!DOCTYPE html>

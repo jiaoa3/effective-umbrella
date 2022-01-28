@@ -3,6 +3,7 @@
 require_once "ArrayParser.php";
 require_once "JsonParser.php";
 require_once "FileParser.php";
+require_once "data.php";
 
 class ParserHelper
 {
