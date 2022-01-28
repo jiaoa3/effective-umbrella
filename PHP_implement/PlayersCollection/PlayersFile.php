@@ -1,5 +1,8 @@
 <?php
 
+require_once "IPlayersCollection.php";
+require_once "View/IViewable.php";
+
 class PlayersFile implements IPlayersCollection, IViewable
 {
     private $filename;

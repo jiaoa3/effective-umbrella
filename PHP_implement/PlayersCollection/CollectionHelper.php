@@ -1,5 +1,9 @@
 <?php
 
+require_once "PlayersArray.php";
+require_once "PlayersJsonString.php";
+require_once "PlayersFile.php";
+
 class CollectionHelper
 {
     static private $playersArray;

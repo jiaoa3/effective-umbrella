@@ -1,5 +1,10 @@
 <?php
 
+require_once "Parsers/ParserHelper.php";
+require_once "PlayersCollection/CollectionHelper.php";
+require_once "CLIView.php";
+require_once "DefaultView.php";
+
 class ViewHelper
 {
     public static function display($isCLI, $source, $filename = null){

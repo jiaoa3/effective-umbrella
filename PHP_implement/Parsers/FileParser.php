@@ -1,5 +1,7 @@
 <?php
 
+require_once "IDataParser.php";
+
 class FileParser implements IDataParser
 {
 

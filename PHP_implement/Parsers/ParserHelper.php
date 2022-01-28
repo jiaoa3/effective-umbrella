@@ -1,5 +1,9 @@
 <?php
 
+require_once "ArrayParser.php";
+require_once "JsonParser.php";
+require_once "FileParser.php";
+
 class ParserHelper
 {
     public static function parse($source, $filename = null) {

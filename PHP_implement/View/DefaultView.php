@@ -1,5 +1,7 @@
 <?php
 
+require_once "IPlayersView.php";
+
 class DefaultView implements IPlayersView
 {
     function display($playersCollection)
