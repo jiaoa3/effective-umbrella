@@ -2,10 +2,9 @@
 
 class CLIView implements IPlayersView
 {
-    function display($playerCollection)
+    function display($playersCollection)
     {
-        $players = []; // need to change later
-        // TODO something
+        $players = $playersCollection->toArray();
         echo "Current Players: \n";
         foreach ($players as $player) {
             echo "\tName: $player->name\n";

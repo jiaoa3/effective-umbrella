@@ -2,5 +2,5 @@
 
 interface IViewable
 {
-
+    function toArray();
 }

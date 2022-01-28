@@ -12,6 +12,7 @@ class PlayersJsonString implements IPlayersCollection, IViewable
         $players[] = $player;
         $this->playersJsonString = json_encode($players);
     }
+
     function toArray(){
         $players = json_decode(file_get_contents($this->filename));
         if (!$players) {
