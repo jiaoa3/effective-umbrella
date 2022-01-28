@@ -1,6 +1,6 @@
 <?php
 
-class PlayersArray implements IPlayersCollection
+class PlayersArray implements IPlayersCollection, IViewable
 {
         private $playersArray;
 
@@ -11,4 +11,8 @@ class PlayersArray implements IPlayersCollection
             $this->playersArray[] = $player;
         }
 
+        function toArray()
+        {
+            return $this->playersArray;
+        }
 }
