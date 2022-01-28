@@ -1,12 +1,11 @@
 <?php
 
-require_once "ParserUtility/ParserHelper.php";
-require_once "Model/CollectionHelper.php";
-require_once "CLIView.php";
-require_once "DefaultView.php";
+require_once "ParserHelper.php";
+require_once "CollectionHelper.php";
+require_once "View/CLIView.php";
+require_once "View/DefaultView.php";
 
-class ViewHelper
-{
+class ViewHelper{
     public static function display($isCLI, $source, $filename = null){
         $players = ParserHelper::parse($source, $filename = null);
         foreach ($players as $player){

@@ -1,6 +1,5 @@
 <?php
 
-interface IPlayersCollection
-{
+interface IPlayersCollection{
     function add($player);
 }

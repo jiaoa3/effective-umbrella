@@ -1,11 +1,10 @@
 <?php
 
-require_once "PlayersArray.php";
-require_once "PlayersJsonString.php";
-require_once "PlayersFile.php";
+require_once "Model/PlayersArray.php";
+require_once "Model/PlayersJsonString.php";
+require_once "Model/PlayersFile.php";
 
-class CollectionHelper
-{
+class CollectionHelper{
     static private $playersArray;
     static private $playersFile;
     static private $playersJsonString;

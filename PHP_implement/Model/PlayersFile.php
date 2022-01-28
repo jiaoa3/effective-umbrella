@@ -3,8 +3,7 @@
 require_once "IPlayersCollection.php";
 require_once "View/IViewable.php";
 
-class PlayersFile implements IPlayersCollection, IViewable
-{
+class PlayersFile implements IPlayersCollection, IViewable{
     private $filename;
 
     public function __construct($filename){

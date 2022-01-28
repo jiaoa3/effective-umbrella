@@ -3,8 +3,7 @@
 require_once "IPlayersCollection.php";
 require_once "View/IViewable.php";
 
-class PlayersArray implements IPlayersCollection, IViewable
-{
+class PlayersArray implements IPlayersCollection, IViewable{
         private $playersArray;
 
         public function __construct(){
@@ -14,8 +13,7 @@ class PlayersArray implements IPlayersCollection, IViewable
             $this->playersArray[] = $player;
         }
 
-        function toArray()
-        {
+        function toArray(){
             return $this->playersArray;
         }
 }

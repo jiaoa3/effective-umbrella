@@ -1,6 +1,5 @@
 <?php
 
-interface IPlayersView
-{
+interface IPlayersView{
     function display($playersCollection);
 }

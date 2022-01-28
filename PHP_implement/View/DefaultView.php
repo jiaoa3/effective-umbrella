@@ -2,11 +2,8 @@
 
 require_once "IPlayersView.php";
 
-class DefaultView implements IPlayersView
-{
-    function display($playersCollection)
-    {
-        //echo "testing in DefaultView";
+class DefaultView implements IPlayersView{
+    function display($playersCollection){
         $players = $playersCollection->toArray();
         ?>
         <!DOCTYPE html>

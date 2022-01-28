@@ -1,6 +1,5 @@
 <?php
 
-interface IViewable
-{
+interface IViewable{
     function toArray();
 }

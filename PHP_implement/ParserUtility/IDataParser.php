@@ -1,6 +1,5 @@
 <?php
 
-interface IDataParser
-{
+interface IDataParser{
     function parse($input);
 }

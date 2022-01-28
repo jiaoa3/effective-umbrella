@@ -3,8 +3,7 @@
 require_once "IPlayersCollection.php";
 require_once "View/IViewable.php";
 
-class PlayersJsonString implements IPlayersCollection, IViewable
-{
+class PlayersJsonString implements IPlayersCollection, IViewable{
     private $playersJsonString;
 
     function add($player){

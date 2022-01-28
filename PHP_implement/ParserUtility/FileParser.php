@@ -2,8 +2,7 @@
 
 require_once "IDataParser.php";
 
-class FileParser implements IDataParser
-{
+class FileParser implements IDataParser{
 
     function parse($input)
     {
